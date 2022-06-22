@@ -2,7 +2,10 @@
 
 # usage: ./test_connection.sh <ip> <port>
 # example: ./test_connection.sh 127.0.0.1 22
-
+#
+# requirements: telnet
+#
+# # use in shell
 # bash test_connection.sh &> /dev/null
 # if [ $? -ne 0 ]; then
 #         echo "connection refused"
